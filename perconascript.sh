@@ -13,4 +13,4 @@ else
 rm -rf $target_dir
 Tk_bkp
 fi
-rsync -avzhe ssh $target_dir root@107.160.101.240:/backup
+rsync -avzhe ssh $target_dir root@<ipaddress>:/backup
